@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../claymore/.idea/bosch.loc.iml" filepath="$PROJECT_DIR$/../claymore/.idea/bosch.loc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web/flygo/.idea/flygo.iml" filepath="$PROJECT_DIR$/../web/flygo/.idea/flygo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../front-stavr/.idea/front-stavr.iml" filepath="$PROJECT_DIR$/../front-stavr/.idea/front-stavr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../go/.idea/go.iml" filepath="$PROJECT_DIR$/../go/.idea/go.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../landing/.idea/portfolio.iml" filepath="$PROJECT_DIR$/../landing/.idea/portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project-1/.idea/project_1.iml" filepath="$PROJECT_DIR$/../project-1/.idea/project_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stavr/.idea/stavr.iml" filepath="$PROJECT_DIR$/../stavr/.idea/stavr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testing/.idea/testing.iml" filepath="$PROJECT_DIR$/../testing/.idea/testing.iml" />
+    </modules>
+  </component>
+</project>

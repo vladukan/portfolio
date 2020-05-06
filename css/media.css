@@ -1,0 +1,201 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .title_main small,.title_main p
+    {
+        font-size: 18px;
+    }
+    .title_main h2{
+        font-size: 24px;
+    }
+    .logo,.logo span{
+        font-size: 20px;
+    }
+    .btnflip-item{
+        font-size: 14px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .title_main small
+    {
+        font-size: 20px;
+    }
+    .title_main p{
+        font-size: 14px;
+    }
+    .title_main h2{
+        font-size: 24px;
+    }
+
+    .logo span{
+        font-size: 18px;
+    }
+    .btnflip-item{
+        font-size: 20px;
+    }
+    .btnflip{
+        width: 250px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .title_main small
+    {
+        font-size: 20px;
+    }
+    .title_main p{
+        font-size: 14px;
+    }
+    .title_main h2{
+        font-size: 24px;
+    }
+
+    .logo span{
+        font-size: 16px;
+    }
+    .btnflip-item{
+        font-size: 20px;
+    }
+    .btnflip{
+        width: 200px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .title_main small
+    {
+        font-size: 16px;
+    }
+    .title_main p{
+        font-size: 12px;
+    }
+    .title_main h2{
+        font-size: 22px;
+    }
+
+    .logo span{
+        font-size: 16px;
+    }
+    .btnflip-item{
+        font-size: 16px;
+    }
+    .btnflip{
+        width: 200px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .title_main small
+    {
+        font-size: 18px;
+    }
+    .title_main p{
+        font-size: 14px;
+    }
+    .title_main h2{
+        font-size: 26px;
+    }
+
+    .logo span{
+        font-size: 22px;
+    }
+    .btnflip-item{
+        font-size: 18px;
+
+    }
+    .btnflip{
+        width: 300px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .title_main small
+    {
+        font-size: 18px;
+    }
+    .title_main p{
+        font-size: 14px;
+    }
+    .title_main h2{
+        font-size: 26px;
+    }
+
+    .logo span{
+        font-size: 22px;
+    }
+    .btnflip-item{
+        font-size: 20px;
+    }
+    .btnflip{
+        width: 300px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .title_main small
+    {
+        font-size: 20px;
+    }
+    .title_main p{
+        font-size: 14px;
+    }
+    .title_main h2{
+        font-size: 28px;
+    }
+
+    .logo span{
+        font-size: 24px;
+    }
+    .btnflip-item{
+        font-size: 20px;
+    }
+    .btnflip{
+        width: 300px;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .title_main small
+    {
+        font-size: 22px;
+    }
+    .title_main p{
+        font-size: 14px;
+    }
+    .title_main h2{
+        font-size: 30px;
+    }
+
+    .logo span{
+        font-size: 28px;
+    }
+    .btnflip-item{
+        font-size: 24px;
+    }
+    .btnflip{
+        width: 300px;
+    }
+}

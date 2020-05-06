@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Поблочная прокрутка на landing page</title>
+  <meta name="description" content="Небольшая статья о том, как сделать поблочную прокрутка на landing page">
+  <meta name="Keywords" content="Поблочная прокрутка">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Дмитрий Давыдов">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Таблица стилей Bootstrap -->
+  <link href="libs/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+  <!-- Основная таблица стилей -->
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <!-- CSS файл плагина fullpage -->
+  <link href="libs/fullpage/jquery.fullPage.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul id="navigation" class="nav nav-justified">
+          <li data-menuanchor="home"><a href="#home">Главная</a></li>
+          <li data-menuanchor="about"><a href="#about">О нас</a></li>
+          <li data-menuanchor="portfolio"><a href="#portfolio">Портфолио</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="fullpage">
+    <section class="section" data-anchor="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Первый экран</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-anchor="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Второй экран</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-anchor="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Третий экран</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Библиотека jQuery -->
+  <script src="jquery.js"></script>
+  <!-- js файлы плагина fullpage -->
+  
+  <script src="libs/fullpage/jquery.easings.min.js"></script>
+  <script src="libs/fullpage/scrolloverflow.min.js"></script>
+  <script src="libs/fullpage/jquery.fullPage.min.js"></script>
+  <!-- инициализация плагина fullpage -->
+  <script>
+    $(document).ready(function () {
+      $('#fullpage').fullpage();
+      menu: '#navigation'
+    });
+  </script>
+</body>
+
+</html>

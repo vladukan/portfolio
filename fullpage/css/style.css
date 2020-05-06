@@ -1,0 +1,23 @@
+/*Фон для секций*/
+
+.section:first-child {
+  background: #6784ff;
+}
+
+.section:nth-child(2) {
+  background: #edff67;
+}
+
+.section:last-child {
+  background: #76ff7c;
+}
+
+
+/*Меню*/
+.navbar {
+  min-height: 40px;
+}
+
+.nav > li > a:focus {
+  background: #fff;
+}
